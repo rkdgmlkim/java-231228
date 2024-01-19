@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 // 자바의 조건문 종류
 // : if, else, else if, switch 문
-public class A_If {
+public class A_if {
 
 	public static void main(String[] args) {
 //		1. if문

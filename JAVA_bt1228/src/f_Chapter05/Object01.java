@@ -67,7 +67,6 @@ class Student {
 	//: 모든 객체에 같은 값
 	static String schoolName = "A고등학교"; //학교 이름
 	static int grade = 3; //학년 변호
-	public static Student student01;
 	
 	//인스턴스 변수
 	//:객체마다 부여되는 값
@@ -104,7 +103,7 @@ public class Object01 {
 		//인스턴스 변수(객체가 생성된 후에 접근 가능)
 		//객체명.변수명
 		//빈 생성자 사용으로 생성과 동시에 필드값 초기화x
-		Student.student01 = new Student();
+		Student student01 = new Student();
 		student01.name = "김강희";
 		student01.studentNumber = 1234;
 		
